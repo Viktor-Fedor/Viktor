@@ -1,0 +1,25 @@
+.bigbox{
+    width: 1000px;
+    height: 500px;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-image: linear-gradient(red, green);
+}
+.bigbox:hover{
+    flex-direction: row;
+}
+.box{
+    width: 150px;
+    height: 150px; 
+    border: 1px solid red;
+    background: white;
+}
+ 
+   
+
+
+   
